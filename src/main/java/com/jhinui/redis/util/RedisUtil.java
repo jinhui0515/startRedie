@@ -12,6 +12,8 @@ import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 /**
+ * Redis 基本操作工具类
+ *
  * @author jinhui
  * @date 2021/2/1 16:02
  */
@@ -182,16 +184,15 @@ public class RedisUtil {
     }
 
     /**
-     *
      * 获取哈希表 key 的所有 field-value 对
      *
      * @param key 哈希表名称key
      * @return 哈希表 key 的所有 field-value 对
      * {
-     *     "sex": "男",
-     *     "userCode": "87009666",
-     *     "age": 20,
-     *     "name": "jhinua"
+     * "sex": "男",
+     * "userCode": "87009666",
+     * "age": 20,
+     * "name": "jhinua"
      * }
      */
     public Map<Object, Object> hmget(String key) {

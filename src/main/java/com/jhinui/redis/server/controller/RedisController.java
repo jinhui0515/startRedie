@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Map;
 
 /**
+ * Redis：String 与 Hash 基本操作
+ *
  * @author jinhui
  * @date 2021/2/4 16:57
  */

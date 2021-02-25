@@ -8,6 +8,8 @@ import javax.persistence.*;
 import java.util.List;
 
 /**
+ * 订单实体
+ *
  * @author jinhui
  * @date 2021/2/23 14:53
  */
@@ -27,7 +29,7 @@ public class Order {
 
     private String status;
 
-    @OneToMany(cascade = CascadeType.ALL,fetch = FetchType.EAGER)
+    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     @Setter
     private List<Item> items;
 

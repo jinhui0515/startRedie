@@ -9,6 +9,8 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Table;
 
 /**
+ * 订单条目实体
+ *
  * @author jinhui
  * @date 2021/2/23 15:06
  */

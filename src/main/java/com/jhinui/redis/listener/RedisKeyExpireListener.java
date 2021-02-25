@@ -17,6 +17,7 @@ import java.util.Optional;
 
 /**
  * 监听所有db的过期事件 "__keyevent@*__:expired"
+ * 当有key过期时触发onMessage()方法
  *
  * @author jinhui
  * @date 2021/2/22 11:19
